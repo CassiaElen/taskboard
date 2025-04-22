@@ -1,4 +1,8 @@
 package com.boardmanager.exception;
 
-public class CardBlockedException {
+public class CardBlockedException extends RuntimeException{
+
+    public CardBlockedException(final String message) {
+        super(message);
+    }
 }

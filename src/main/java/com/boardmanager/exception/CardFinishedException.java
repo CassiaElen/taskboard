@@ -1,4 +1,8 @@
 package com.boardmanager.exception;
 
-public class CardFinishedException {
+public class CardFinishedException extends RuntimeException{
+
+    public CardFinishedException(final String message) {
+        super(message);
+    }
 }
